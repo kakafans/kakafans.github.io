@@ -1,13 +1,10 @@
-# Header 1
-## Header 2
-### Header 3
+    ---
+　　layout: default
+　　title: 你好，世界
+　　---
 
-- Bulleted
-- List
+　　<h2>{{ page.title }}</h2>
 
-1. Numbered
-2. List
+　　<p>我的第一篇文章</p>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+　　<p>{{ page.date | date_to_string }}</p>
