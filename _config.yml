@@ -1,3 +1,16 @@
 theme: jekyll-theme-midnight
 title: 笔记
 description:  notes
+
+# Links
+links:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
+  - title: "简书"
+    url: http://www.jianshu.com/users/3007ce57abd3/latest_articles
+  - title: "github"
+    url: http://github.com/ShyHornet
+  - title: "订阅"
+    url: /feed.xml
